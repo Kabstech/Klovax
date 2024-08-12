@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #f8f4f4;
+}
+
+nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color:#ffff;
+    box-shadow: 20px black;
+    position: fixed; 
+    top: 10px;
+}
+
+.Top-1{
+    width: 10%;
+    margin-right: 12rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+img{
+    width: 50px;
+ 
+}
+.navdrop{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    display: flex;
+}
+
+.navitems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    gap: 10%;
+    font-size: 20px;
+    margin-left: 20%;
+    list-style: none;
+}
+
+
+li a{
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    color: gray;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.btn{
+    padding: 15px 30px 15px 30px;
+    border-radius: 30px;
+    background-color: #e86122 !important;
+    color: #ffff;
+    border-color: #e86122 !important;
+    margin-left: 10rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btndiv{
+    justify-content: end;
+    margin-left: 10rem;
+}  
+
+.firstlink{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.btn1{
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #fefbfb;
+    cursor: pointer;
+    border: none;
+    margin-top: 10%; 
+}
+
+h3{
+    font-style: bold;
+    font-size: 18px;
+    color: gray;
+}
+
+span{
+    color: black;
+    width: 40px;
+}
+
+h2{
+    margin-top: 50px;
+    font-size: 60px;
+    color: rgb(45, 43, 43);
+    font-weight: 100;
+}
+
+h4{
+    margin-top: 20px;
+    font-weight: 100;
+
+}
+.overall{
+    width: 30vw;
+    height: 102vh;
+    margin-top: 7%;
+    background-color: #fefbfb;
+    border-radius: 20px;
+    margin-left: 27px;
+
+}
+.img{
+    width: 100%;
+    height: 80vh;
+
+}
+.img img{
+width: 100%;
+height: 100%;
+border-radius: 20px;
+}
+
+.write-up{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.First{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+section{
+    display: flex;
+}
+
+#part{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.lead{
+    font-weight: 100;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.assist{
+    margin-bottom: 30px;
+}
+
+.mid{
+    padding: 15px 30px 15px 30px;
+    border-radius: 30px;
+    background-color: #e86122 !important;
+    color: #ffff;
+    border-color: #e86122 !important;
+    border: none;
+    cursor: pointer;
+}
+
+.widepic{
+    width: 90%;
+    height: 100vh;
+    margin-top: 5rem;
+    border-radius: 30px;
+}
+
+header{
+    background-color: #edefeb;
+    width: 100%;
+    height: 120vh;
+    margin-top: 5rem;
+}
+
+.whole{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whole1{
+    margin-bottom: 12rem; 
+    width: 40%;
+}
+
+h5{
+    font-size: 60px;
+    font-weight: 100;
+    margin-bottom: 10%;
+}
+
+.whole1btn{
+    padding: 15px 30px 15px 30px;
+    border-radius: 30px;
+    background-color: #e86122 !important;
+    color: #ffff;
+    border-color: #e86122 !important;
+    border: none;
+    cursor: pointer;
+    margin-top: 5%;
+}
+
+.whole2{
+    width: 50%;
+    background-color: #ffff;
+    border-radius: 20px;
+    padding: 20px 80px 20px 10px;
+}
+
+.text{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.textchild{
+    margin-top: 10px;
+    font-size: 15px ;
+    font-weight: 80;
+}
+
+.textchild1{
+    margin-top: 20px;
+    font-size: 15px ;
+    font-weight: 80;
+}
+
+.childbtn{
+    padding: 12px 22px 12px 22px;
+    border-radius: 30px;
+    background-color: black;
+    color: #ffff;
+    border: none;
+    cursor: pointer;
+    margin-left: 25rem;
+}
+
+.childbtn1{
+    font-size: 15px;
+}
+
+.wholediv1{
+    margin-top: 20%;
+}
+
+.wholediv2{
+    margin-top: 20rem;
+}
+.footer{
+    display: flex;
+}
+
+.follow{
+    font-weight: 100;
+    font-size: 60px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.follow1{
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    color: red;
+}
+.overall1{
+    width: 30vw;
+    height: 102vh;
+    margin-top: 7%;
+    background-color: #fefbfb;
+    border-radius: 20px;
+    margin-left: 27px;
+}
